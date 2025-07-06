@@ -3,7 +3,7 @@ const scrapeTweets = async () => {
   try {
     const scraper = new Scraper();
     // Basic login
-    await scraper.login("UnderWo45681935", "pranjwal11");
+    await scraper.login("your-username", "your-password");
     // Get tweets as an AsyncGenerator
     const tweetsGenerator = await scraper.getTweets("elonmusk", 10);
     console.log("OUTPUT ---->\n");
